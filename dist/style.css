@@ -1,0 +1,45 @@
+/* Headline typeface 'Homemade Apple' */
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
+<head>
+<style>
+body{
+  align-items: center;
+  background-color: #cdc2bb;
+}
+h1 {
+  color: #999966;
+  text-align: center;
+  font-size: 60px;
+  font-family: 'Homemade Apple', cursive;
+  border-style: solid;
+  grid-area: header;
+  margin: 0px;
+  display: float;
+}
+
+h2 {
+  color: brown;
+  text-align: center;
+  font-family: serif;
+  border-style: solid;
+  font-size: 14px;
+  margin: 0px;
+  position: relative;
+  top: -30px;
+}
+img {
+  max-width:100%;
+  height:auto;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: minmax(50%,auto);
+  box-shadow: 0 0 20px 20px white inset;
+} 
+#img-caption {
+  text-align: center;
+}
+</style>
+</head>
